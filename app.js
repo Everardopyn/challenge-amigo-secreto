@@ -2,17 +2,17 @@
 let listaDeAmigos = [];
 
 
-function agregarAmigo(nombre){
-    let nombreAmigo = document.querySelector(nombre).value;
+function agregarAmigo(){
+    let nombreAmigo = document.querySelector('#amigo').value;
     
-    verificarNombreEnCelda();
-}
 
-function verificarNombreEnCelda(){
     //verificr que la celda no esta vacia
     if (nombreAmigo == ""){
         alert("Por favor ingrese un nombre valido");
     }else{
         listaDeAmigos.push(nombreAmigo);
+        document.querySelector("#amigo").value = "";
+        console.log(listaDeAmigos);
+
     }
 }
