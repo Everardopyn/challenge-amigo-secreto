@@ -10,3 +10,11 @@
 ## Descripción
 
 Este proyecto fue desarrollado como parte del proceso de aprendizaje en logica de programación  
+
+## :hammer:Funcionalidades del proyecto
+
+- `Funcionalidad 1`: El proyecto esta desarrollado para que el usuario ingrese el nombre de sus amigos 
+- `Funcionalidad 2`: Lista en la pantalla los nombres de amigos que se ingresan
+- `Funcionalidad 3`: Cuando de click en el boton sortear la pagina regresara el nombre de uno de sus amigos a lazar
+
+
