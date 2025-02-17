@@ -10,6 +10,7 @@
 ## Descripción
 
 Este proyecto fue desarrollado como parte del proceso de aprendizaje en logica de programación  
+En el cual se deben introducir los nombres de tus amigos dentro del cuadro de texto y estos nombres van a aparecer debajo en forma de lista cuando quieras obtener el nombre de un amigo le das click sobre el boton "sortear amigo" y la pagina te arrojara el nombre de un amigo al azar.
 
 ## :hammer:Funcionalidades del proyecto
 
