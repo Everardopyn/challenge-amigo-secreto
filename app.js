@@ -40,12 +40,13 @@ function mostrarListaAmigo() {
 function sortearAmigo(){
   if (listaDeAmigos.length <= 1){
     alert('Agrega más amigos');
+  }else{
+    let totalAmigos = listaDeAmigos.length;
+    let numero = Math.floor(Math.random()* totalAmigos);
+    let numeroSorteado = listaDeAmigos[numero];
+    let mostrar = document.querySelector("#resultado");
+    mostrar.textContent = numeroSorteado;
   }
-  let totalAmigos = listaDeAmigos.length;
-  let numero = Math.floor(Math.random()* totalAmigos);
-  let numeroSorteado = listaDeAmigos[numero];
-  let mostrar = document.querySelector("#resultado");
-  mostrar.textContent = numeroSorteado;
 
 }
 
