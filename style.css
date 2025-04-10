@@ -160,3 +160,40 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+@media  (768px <= width <= 1200px) {
+    
+    .header-banner{
+        padding: 0 10%;
+    }
+}
+
+@media (320px <= width <= 480px){
+    .header-banner{
+        padding: 0 10%;
+    }
+
+    .main-title{
+        font-size: 40px;
+    }
+
+    .imagen{
+        width: 60%;
+    }
+
+    .input-section{
+        border-radius: 38px 38px 0 0;
+    }
+
+    .section-title{
+        font-size: 30px;
+    }
+
+    .input-name{
+        border-radius: 14px 0 0 14px;
+    }
+
+    .button-add{
+        border-radius: 0 14px 14px 0;
+    }
+}
